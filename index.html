@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="code.png">
+
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <!-- Loader -->
+    <div class="loader-bg">
+        <div class="flex">
+        <div class="loader">
+        </div>
+        </div>
+        <div class="load-text">
+        Loading....
+        </div>
+        </div>
+    <!-- End Loader -->
+
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#"><h1>NBMJ</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="#home-section">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                    <li><a href="#footer-section">Connect</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+    <!-- First Section -->
+    <section id="home-section">
+        <div class="first container">
+            <div>
+                <h1 class="first-heading">
+                Hello,<br>
+                I'm <span class="text-heading">Neil Bry</span>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <hr class="horizontal-line">
+    <!-- End First Section -->
+
+    <!-- Second Section -->
+    <section id="about-section">
+        <div class="second container">
+            <div>
+                <h1>
+                    <span class="a">A</span>
+                    <span class="a">b</span>
+                    <span class="a">o</span>
+                    <span class="a">u</span>
+                    <span class="a">t</span>&nbsp;
+                    <span class="a">M</span>
+                    <span class="a">e</span>
+                </h1>
+                <hr class="border">
+                <p>My goal for this year is to become a front end developer or even more than that.</p>
+                <p>I enjoy working as a team member as well as independently.</p>
+                <p>I am strongly focused with the ability to complete tasks accurately in a fast-paced environment with conflicting deadlines.</p>
+                <a href="https://mailchi.mp/984065e7aa9f/junior-front-end-developer" target="_blank" type="button" class="button">Email Me</a>
+            </div>    
+        </div>
+    </section>
+    <!-- End Second Section -->
+
+    <!-- Third Section -->
+    <section id="contact-section">
+        <h1>
+            <span class="a">C</span>
+            <span class="a">o</span>
+            <span class="a">n</span>
+            <span class="a">t</span>
+            <span class="a">a</span>
+            <span class="a">c</span>
+            <span class="a">t</span>&nbsp;
+            <span class="a">M</span>
+            <span class="a">e</span>
+        </h1>
+        <div class="border">
+
+        </div>
+        <form class="content-form" action="https://formspree.io/mwkrwjjr" method="POST" target="_blank">
+            <input type="text"  name="name" class="content-form-text" placeholder="Your Name" required>
+            <input type="email" name="_replyto" class="content-form-text" placeholder="Your Email" required>
+            <textarea class="content-form-text" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send" class="content-form-btn" placeholder="Submit">
+        </form>
+    </section>
+    <!-- End Third Section -->
+
+    <!-- Fourth Section -->
+    <section id="footer-section">
+        <div class="footer container">
+            <div class="brand">
+                <h1>
+                    <span class="a">L</span>
+                    <span class="a">e</span>
+                    <span class="a">t</span>
+                    <span class="a">'</span>
+                    <span class="a">s</span>&nbsp;
+                    <span class="a">C</span>
+                    <span class="a">o</span>
+                    <span class="a">n</span>
+                    <span class="a">n</span>
+                    <span class="a">e</span>
+                    <span class="a">c</span>
+                    <span class="a">t</span>
+                </h1>
+            </div>
+                <h2 class="footer-text">If you don't take a risk, you can't create a future.</h2>    
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="https://www.facebook.com/bryan.galabin" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.upwork.com/freelancers/~013fdb6b064d230867" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/upwork.png"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.linkedin.com/in/neil-bry-729a3312b/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
+                </div>
+            </div>
+            <p>© 2020 Neil Bry.</p>
+        </div>
+    </section>
+    <!-- End Fourth Section -->
+
+    <!-- Particles & Hamburger menu js-->
+    <script src="./hamburger.app.js"></script>
+    <script src="./particles.js"></script>
+    <script src="./app.js"></script>
+    <script type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader-bg').fadeToggle();
+        }, 3500);
+    </script>
+    <!-- End Particles & Hamburger menu js-->
+    </html>
